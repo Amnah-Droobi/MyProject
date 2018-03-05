@@ -1,3 +1,4 @@
+
 .header{
     max-height: 80.8px;
     background-color: white;
@@ -16,11 +17,47 @@
     display:flex;
     background-color: white;
     padding: 0px 15px ;
-    widows: 100vw;
+    width: 100vw;
     margin:auto;
 
 }
 body {
     font-family: 'Lato', arial, sans-serif;
     color: #444;
+}
+h1{
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+.header h1.logo{
+    margin-top:0px;
+    margin-bottom:0px;
+    text-transform:uppercase;
+    font-size:28px;
+    max-height: 50px;
+    font-weight: bold;
+    
+
+
+}
+.pull-left{
+    float:left;
+}
+.header h1.logo a{
+    color:#444;
+}
+.header h1.logo a img{
+    margin-right: 5px;
+    max-height:50px;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+.header h1.logo .logo-title{
+    vertical-align: middle;
 }
