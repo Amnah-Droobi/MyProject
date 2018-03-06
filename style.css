@@ -60,4 +60,21 @@ img{
 }
 .header h1.logo .logo-title{
     vertical-align: middle;
+.header-div{
+    width:173;
+}
+
+ nav .main-nav ul{
+
+ width:100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: center;
+    position: absolute;
+    right: 0px;   
+
+} 
 }
