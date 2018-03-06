@@ -82,6 +82,9 @@ img{
   width:80%;
 
 }
+.nav-item{
+    padding-top:5px;
+}
 
  nav .main-nav ul{
 
@@ -101,7 +104,7 @@ li{
     vertical-align: middle;
     text-transform: uppercase;
     font-weight: bold;
-    
+    list-style-type: none;
 }
 .promo{
     height:738px;
@@ -156,8 +159,31 @@ ul.summary li{
     margin-bottom: 15px;
     padding-left:30px;
     color:white;
-    font-family: inherit;
+    /* font-family: inherit; */
     font-weight: 500;
     line-height: 1.2;
-  
+    background: url(https://themes.3rdwavemedia.com/delta/bs4/3.4/assets/images/bullet.svg) no-repeat left center;
+
+}
+.download-area{
+    height: 511px;
+    flex-direction: column;
+}
+ul.list-inline-item{
+    margin-bottom: 16px;
+    margin-left:40px;
+    width:100%;
+    display: flex;
+   
+}
+.list-inline-item{
+    display:inline-block;
+}
+li.ios-btn{
+    margin-right: 8px;
+    margin-bottom: 15px;
+}
+li.android-btn{
+    margin-bottom: 15px;
+
 }

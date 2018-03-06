@@ -1,0 +1,40 @@
+header{
+    border:1px solid green;
+}
+header, *{
+    
+    /* margin: 0 10px; */
+    }
+    
+    
+    header .container{
+        display:flex;
+        width: 80vw;
+        margin:auto;
+        /* justify-content: space-between; */
+    }
+    .header-div a  {
+          display:flex;
+          align-items: center;
+    }
+    ul.navbar-nav{
+        display:flex;
+        margin: auto;
+        margin-right: 0px;
+        align-items:center;
+        list-style: none;
+        width: 60vw;
+        list-style:none;
+        justify-content: space-evenly;
+    }
+    
+    
+    ul.navbar-nav li{
+       
+    }
+    header, * {
+        /* margin: 0 10px; */
+        margin-right: 0px;
+        justify-content:space-between;
+        align-items: center;
+    }
