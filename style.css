@@ -231,17 +231,30 @@ li.android-btn{
 section.featur{
     padding:80px 0px;   
 }
-#features.container{
-    width:100vw;
-    display:flex;
+section .container{
+    width: 100vw;
+    padding: 0px 15px 0px 15px;
+    margin: 0 auto;
+    height: 796px;
+    background: transparent;
+    flex-direction: column;
+    flex-flow: wrap;
 }
-.row{
+.row.feature{
     display:flex;
-    width:100vw;
-   
- 
- 
+    widows: 100vw !important;
     
+    
+}
+.row.feature-row-last{
+    display:flex;
+    widows: 100vw !important;
+    
+    
+}
+.row h3{
+    color: #56bc94;
+    text-align: center;
 }
 .features.container.row.item{
     flex-direction: row;
@@ -300,6 +313,7 @@ i.fas.fa-cloud-upload-alt{
 .content{
     padding-top:30px;
     flex-direction: column;
+    text-align: center;
 }
 i.fa{
     border-radius: 50%;
@@ -328,6 +342,33 @@ i.fa{
     padding-top: 13px;
 }
 .fa.fa-map-marker{
+    color: #56bc94;
+    font-size: 48px;
+    display: table-cell;
+    text-align: center;
+    margin:0 auto ;
+    align-content: center;
+    padding-top: 13px;
+}
+.content a{
+    color: #56bc94;
+    text-decoration: #56bc94;
+}
+button.btn-link{
+    color: #56bc94;
+}
+.col-lg-4{
+    max-width: 33.33%;
+    display: flex;
+    padding-left:15px;
+    padding-right:15px;
+    position: relative;
+    margin:0px 0px;
+    flex-direction: column;
+    align-content: center; 
+    /* vertical-align: middle; */
+}
+.fa.fa-calendar{
     color: #56bc94;
     font-size: 48px;
     display: table-cell;
