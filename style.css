@@ -327,3 +327,12 @@ i.fa{
     align-content: center;
     padding-top: 13px;
 }
+.fa.fa-map-marker{
+    color: #56bc94;
+    font-size: 48px;
+    display: table-cell;
+    text-align: center;
+    margin:0 auto ;
+    align-content: center;
+    padding-top: 13px;
+}
