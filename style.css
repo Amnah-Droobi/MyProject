@@ -1,4 +1,5 @@
 
+
 .header{
     max-height: 80.8px;
     background-color: white;
@@ -227,3 +228,72 @@ li.android-btn{
     -moz-opacity: 0.5;
     opacity: 0.5; */
 /* } */ 
+section.featur{
+    padding:80px 0px;   
+}
+#features.container{
+    width:100vw;
+    display:flex;
+}
+.row{
+    display:flex;
+    width:100vw;
+   
+ 
+ 
+    
+}
+.features.container.row.item{
+    flex-direction: row;
+    justify-content: space-between ;
+}
+.text-center{
+    align-content: center;
+}
+.col-lg-3{
+    max-width: 25%;
+    display: flex;
+    padding-left:15px;
+    padding-right:15px;
+    position: relative;
+    margin:0px 0px;
+    flex-direction: column;
+}
+
+
+    
+.fa-cloud-upload-alt {
+    color: #56bc94;
+    font-size: 48px;
+    display: table-cell;
+    text-align: center;
+    margin:0 auto ;
+    align-content: center;
+    padding-top: 13px;
+
+
+    }
+
+ div.icon{
+  
+     position: relative;
+     width:inherit;
+     align-items: center;
+     margin:0 auto;
+     height:90px;
+    
+ }
+i.fas.fa-cloud-upload-alt{
+ border-radius: 50%;
+ width: 90px;
+ height: 90px;
+ border: 3px solid #56bc94;
+
+}
+.clear{
+    -webkit-column-break-after: column;
+}
+.content{
+    padding-top:30px;
+    flex-direction: column;
+}
