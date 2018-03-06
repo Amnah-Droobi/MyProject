@@ -15,10 +15,14 @@
 }
 .container{
     display:flex;
+ 
+    align-items: stretch;
     background-color: white;
     padding: 0px 15px ;
     width: 100vw;
     margin:auto;
+    height: 50px;
+   
 
 }
 body {
@@ -26,20 +30,19 @@ body {
     color: #444;
 }
 h1{
-    -webkit-margin-before: 0.67em;
-    -webkit-margin-after: 0.67em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+    
     margin-top:0px;
     margin-bottom: 0px;
+ 
+   
 }
 .header h1.logo{
     margin-top:0px;
     margin-bottom:0px;
     text-transform:uppercase;
-    font-size:28px;
+    font-size:25px;
     max-height: 50px;
-    font-weight: bold;
+   
     
 
 
@@ -49,6 +52,7 @@ h1{
 }
 .header h1.logo a{
     color:#444;
+    text-decoration:none;
 }
 .header h1.logo a img{
     margin-right: 5px;
@@ -60,8 +64,23 @@ img{
 }
 .header h1.logo .logo-title{
     vertical-align: middle;
+  
+}
 .header-div{
     width:173;
+}
+/* .main{
+  float:right;
+    display: flex;
+    display: flex!important;
+    flex-direction: row;
+    justify-content: center;
+
+} */
+
+.main-nav{
+  width:80%;
+
 }
 
  nav .main-nav ul{
@@ -77,4 +96,68 @@ img{
     right: 0px;   
 
 } 
+li{
+    padding:11px 12px ;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.promo{
+    height:738px;
+    background: green;
+}
+.promo {
+    height: 886px;
+    width: 100vw;
+    padding-top: 90px;
+    background-color: #56bc94;
+    background-image: url(https://themes.3rdwavemedia.com/delta/bs4/3.4/assets/images/patterns/pattern-1.png);
+        background-repeat: repeat;
+        background-position: left top;}
+    
+section .container{
+    width:100vw;
+    padding:0px 15px 15px 15px  ;
+    margin: 0 auto;
+    height: 796px;
+        background: transparent;
+     
+}
+.row{
+     flex-wrap: nowrap; 
+     width:100%;
+     /* margin-right: -15px;
+     margin-left: -15px;  */
+}
+section h2.title{
+    margin-bottom: 35px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+ 
+}
+.col-12{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 60px;
+
+}
+
+ul.summary{
+    padding-left:40px;
+    margin-bottom:60px;
+}
+ul.summary li{
+    margin-bottom: 15px;
+    padding-left:30px;
+    color:white;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+  
 }
